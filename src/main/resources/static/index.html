@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Storage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    <link rel="stylesheet" href="styles.css">-->
+</head>
+<body>
+<header>
+    <h1>Media Storage</h1>
+</header>
+<main>
+    <div id="media-list">
+        <header>
+            <h3>Your Media Files</h3>
+        </header>
+        <ul id="your-media">
+        </ul>
+    </div>
+    <div id="player">
+        <header>
+            <h3 id="now-playing"></h3>
+        </header>
+    </div>
+    <form id="media-form">
+        <fieldset>
+            <legend>Upload Media File</legend>
+            <label for="file">Media File</label>
+            <input id="file" name="file" type="file" accept="application/mp3">
+            <button type="submit">Save</button>
+        </fieldset>
+    </form>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
